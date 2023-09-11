@@ -1,0 +1,53 @@
+.banner {
+  background-color: var(--color-blue-10);
+}
+.banner-items {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.banner-item {
+  flex-grow: 1;
+  flex-basis: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.banner-item-icon {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+.banner-item-icon svg {
+  fill: var(--color-blue-90);
+}
+
+.banner-item-title {
+  font-weight: 400;
+  color: var(--color-blue-90);
+}
+
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (min-width: 576px) {
+  .banner-item {
+    flex-basis: calc(50% -2rem);
+  }
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .banner-item {
+    flex-basis: calc(25% - 2rem);
+  }
+}

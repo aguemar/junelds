@@ -21,6 +21,7 @@
 
 .header-nav {
   padding: 1rem 0;
+  z-index: 9;
 }
 
 .header-nav-inner {
@@ -31,6 +32,7 @@
 
 .header-menu {
   display: none;
+  z-index: 10;
 }
 
 .header-btn {

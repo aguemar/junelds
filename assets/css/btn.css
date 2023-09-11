@@ -5,6 +5,8 @@
   --link-decoration: none;
   --link-hover-color: var(--color-blue-70);
   --link-hover-decoration: underline;
+  color: var(--link-color);
+  text-decoration: var(--link-decoration);
 }
 
 .link:hover {
@@ -15,7 +17,7 @@
 .header-top-link {
   --link-padding-x: ;
   --link-padding-y: ;
-  --link-color: var(--color-blue-90);
+  --link-color: var(--color-gray-60);
   --link-decoration: none;
   --link-hover-color: var(--color-blue-70);
   --link-hover-decoration: none;
