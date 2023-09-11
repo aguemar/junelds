@@ -4,6 +4,13 @@
     <title>Juneld's Green Farm LLC | Meat Guiena Pig</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,600;8..144,800&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- fontawesome -->
     <link
       rel="stylesheet"
@@ -12,38 +19,111 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
     <header class="header">
-      <section class="header-top"></section>
-      <nav class="header-nav">
-        <div class="header-logo">
-          <a href="" class="logo-link">
-            <img src="" alt="" class="logo" />
-          </a>
+      <section class="header-top">
+        <div class="container">
+          <div class="header-top-inner">
+            <div class="header-top-contact">
+              <a href="" class="link link-icon header-top-link">
+                <i class="fa-solid fa-phone"></i>
+                (1)0000000000
+              </a>
+              <a href="" class="link link-icon header-top-link">
+                <i class="fa-solid fa-envelope"></i>
+                contact@juneldsgreenfarm.com
+              </a>
+            </div>
+            <div class="header-top-social">
+              <a href="" class="link link-social header-top-link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="" class="link link-social header-top-link">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <button class="header-btn header-open"></button>
-        <div class="header-menu">
-          <button class="header-btn header-close"></button>
-          <ul class="header-items">
-            <li class="header-item">
-              <a href="" class="header-item-link">Home</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-item-link">About</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-item-link">Products</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-item-link">News</a>
-            </li>
-            <li class="header-item">
-              <a href="" class="header-item-link">Contact</a>
-            </li>
-          </ul>
+      </section>
+      <nav class="header-nav">
+        <div class="container">
+          <div class="header-nav-inner">
+            <div class="header-logo">
+              <a href="" class="logo-link">
+                <img
+                  src="./assets/media/logo.png"
+                  alt="logo juneld's green farm"
+                  class="logo"
+                />
+              </a>
+            </div>
+            <button id="nav-open" class="header-btn header-open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div id="nav-menu" class="header-menu">
+              <button id="nav-close" class="header-btn header-close">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+              <ul class="header-items">
+                <li class="header-item">
+                  <a href="" class="link header-item-link">Home</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="link header-item-link">About</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="link header-item-link">Products</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="link header-item-link">News</a>
+                </li>
+                <li class="header-item">
+                  <a href="" class="link header-item-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-brackground parallax"></div>
+            <div class="hero-content">
+              <div class="hero-description">
+                <div class="hero-card">
+                  <div class="hero-card-body">
+                    <h1 class="hero-card-title">
+                      Guinea Pig Delights:
+                      <span> Tradition on Your Plate</span>
+                    </h1>
+                    <p class="hero-card-text">
+                      Discover the delicious guinea pig meats from our farm in
+                      Concepción, Peru. Naturally raised and vacuum-sealed to
+                      arrive fresh at your table.
+                    </p>
+                    <div class="hero-btn">
+                      <a href="" class="btn btn-primary">Explore Products</a>
+                      <a href="" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-inner"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

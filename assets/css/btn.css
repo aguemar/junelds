@@ -1,0 +1,79 @@
+.link {
+  --link-padding-x: ;
+  --link-padding-y: ;
+  --link-color: var(--color-blue-90);
+  --link-decoration: none;
+  --link-hover-color: var(--color-blue-70);
+  --link-hover-decoration: underline;
+}
+
+.link:hover {
+  color: var(--link-hover-color);
+  text-decoration: var(--link-hover-decoration);
+}
+
+.header-top-link {
+  --link-padding-x: ;
+  --link-padding-y: ;
+  --link-color: var(--color-blue-90);
+  --link-decoration: none;
+  --link-hover-color: var(--color-blue-70);
+  --link-hover-decoration: none;
+}
+
+.header-item-link {
+  --link-padding-x: 0.5rem;
+  --link-padding-y: 1rem;
+  --link-color: var(--color-blue-90);
+  --link-decoration: none;
+  --link-hover-color: var(--color-blue-70);
+  --link-hover-decoration: none;
+  font-weight: 500;
+}
+
+.link-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link-social {
+  font-size: 1.125rem !important;
+}
+
+.btn {
+  --btn-padding-x: 1.25rem;
+  --btn-padding-y: 0.8125rem;
+  --btn-font-family: ;
+  --btn-font-size: 0.9375rem;
+  --btn-font-weight: 600;
+  --btn-line-height: 1.6;
+  --btn-color: var(--bs-body-color);
+  --btn-bg: transparent;
+  --btn-border-width: var(--bs-border-width);
+  --btn-border-color: transparent;
+  --btn-border-radius: var(--bs-border-radius);
+  --btn-hover-border-color: transparent;
+  --btn-box-shadow: 0 0;
+  --btn-disabled-opacity: 0.65;
+  --btn-focus-box-shadow: 0 0 0 0 rgba(var(--bs-btn-focus-shadow-rgb), 0.5);
+  background-color: var(--bs-btn-bg);
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  box-shadow: var(--bs-btn-box-shadow);
+  color: var(--bs-btn-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--bs-btn-font-family);
+  font-size: var(--bs-btn-font-size);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+}
