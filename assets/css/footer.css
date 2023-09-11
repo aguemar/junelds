@@ -1,0 +1,43 @@
+.footer {
+  padding: 2rem 0;
+}
+
+.footer-inner {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-menu {
+  width: 100%;
+}
+
+.footer-menu h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+  .footer-menu {
+    width: calc(33.3% - 2rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-inner {
+    text-align: left;
+  }
+  .footer-logo {
+    width: calc(40% - 2rem);
+  }
+
+  .footer-menu {
+    width: calc(20% - 2rem);
+  }
+}
+@media screen and (min-width: 992px) {
+  .section {
+    padding: 5rem 0;
+  }
+}
